@@ -1,0 +1,14 @@
+---
+layout: default
+---
+<section class="page-banner">
+  <div class="wrap">
+    <h1>{{ page.title }}</h1>
+    {% if page.subtitle %}<p>{{ page.subtitle }}</p>{% endif %}
+  </div>
+</section>
+<main class="page-body">
+  <div class="wrap">
+    {{ content }}
+  </div>
+</main>

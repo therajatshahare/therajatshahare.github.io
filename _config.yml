@@ -1,0 +1,33 @@
+title: Rajat Shahare
+tagline: English Literature Research Scholar | Educator | Open-Source Developer
+description: Academic and professional portfolio of Rajat Shahare, Ph.D. Research Scholar in English at Rashtrasant Tukadoji Maharaj Nagpur University.
+url: "https://therajatshahare.github.io"
+baseurl: ""
+
+# Update these
+author:
+  name: Rajat Shahare
+  email: therajatshahare@gmail.com
+  github: therajatshahare
+  linkedin: ""        # e.g. your-linkedin-handle
+  orcid: ""           # e.g. 0000-0000-0000-0000
+  google_scholar: ""  # profile URL
+
+markdown: kramdown
+permalink: pretty
+
+nav:
+  - { title: Home, url: / }
+  - { title: About, url: /about/ }
+  - { title: Education, url: /education/ }
+  - { title: Research, url: /research/ }
+  - { title: Publications, url: /publications/ }
+  - { title: Teaching, url: /teaching/ }
+  - { title: Projects, url: /projects/ }
+  - { title: Academic Activity, url: /academic-activity/ }
+  - { title: Contact, url: /contact/ }
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock

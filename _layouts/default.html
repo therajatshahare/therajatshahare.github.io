@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.url == '/' %}{{ site.title }} — {{ site.tagline }}{% else %}{{ page.title }} · {{ site.title }}{% endif %}</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Open+Sans:wght@400;600;700&family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="{{ '/' | relative_url }}"><span class="brand-mark">R</span> {{ site.title }}</a>
+      <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Toggle menu">
+      <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
+      <nav class="site-nav">
+        {% for item in site.nav %}
+          <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active"{% endif %}>{{ item.title }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </header>
+
+  {{ content }}
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© {{ 'now' | date: '%Y' }} {{ site.title }}. Built with <a href="https://jekyllrb.com">Jekyll</a> and hosted on <a href="https://pages.github.com">GitHub Pages</a>.</p>
+      <p class="footer-links">
+        {% if site.author.github != '' %}<a href="https://github.com/{{ site.author.github }}">GitHub</a>{% endif %}
+        {% if site.author.linkedin != '' %}<a href="https://linkedin.com/in/{{ site.author.linkedin }}">LinkedIn</a>{% endif %}
+        {% if site.author.orcid != '' %}<a href="https://orcid.org/{{ site.author.orcid }}">ORCID</a>{% endif %}
+        {% if site.author.google_scholar != '' %}<a href="{{ site.author.google_scholar }}">Google Scholar</a>{% endif %}
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
