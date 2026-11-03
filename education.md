@@ -9,8 +9,8 @@ permalink: /education/
 <div class="entry">
   <div class="meta">Sep 2023 – Ongoing · Department of English (PGTD), RTM Nagpur University</div>
   <h3>Ph.D. (English)</h3>
-  Thesis: <em>"The Evolution of Race and Social Commentary in Colson Whitehead's Novels."</em><br>
-  Research focus on race, identity, discrimination, alienation, slavery, and neo-slavery in American society. Two research papers published, a third in progress. Presented at multiple academic conferences. Two thesis chapters completed, the third underway.
+  Thesis: <em>"Under process"</em><br>
+  Research focus on race, identity, discrimination, alienation, slavery, and neo-slavery in American society. Two research papers published, a third in progress. Presented at multiple academic conferences. Four thesis chapters completed, the Fifth underway.
 </div>
 
 <div class="entry">
