@@ -9,7 +9,7 @@ permalink: /publications/
 <div class="entry">
   <div class="meta">April 2026 · IJVRA, Volume 4, Issue 4 · ISSN: 2984-8903</div>
   <h3>Beyond Slavery: Empathy and the Black Experience in <em>Sag Harbor</em> and <em>The Intuitionist</em></h3>
-  © 2026 IJVRA · <a href="https://ijvra.org">IJVRA.ORG</a>
+  © 2026 IJVRA
 </div>
 
 <div class="entry">
