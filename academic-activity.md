@@ -4,7 +4,6 @@ title: Academic Activity
 subtitle: Conferences, workshops, seminars and memberships
 permalink: /academic-activity/
 ---
-<p class="todo"><strong>To update:</strong> add any other conferences, seminars or memberships. My conference papers are listed on the <a href="{{ '/publications/' | relative_url }}">Publications</a> page.</p>
 
 ## Workshops and symposia
 
