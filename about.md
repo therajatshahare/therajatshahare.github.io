@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-subtitle: English Literature Research Scholar | Educator | Open-Source Developer
+subtitle: Ph.D. Senior Research Fellow (English Literature) | Educator | Open-Source Developer
 permalink: /about/
 ---
 I am a full-time Ph.D. Research Scholar at the Department of English, Rashtrasant Tukadoji Maharaj Nagpur University, Nagpur, Maharashtra, India. My academic interests lie in American literature, African American literature, postcolonial studies, race and identity, and contemporary literary criticism.
