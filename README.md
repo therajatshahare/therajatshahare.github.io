@@ -1,23 +1,58 @@
-# therajatshahare.github.io
+# Rajat Shahare: Academic & Professional Portfolio
 
-Academic and professional portfolio of Rajat Shahare, built with Jekyll and hosted on GitHub Pages.
+**Live site: [therajatshahare.github.io](https://therajatshahare.github.io)**
 
-## Publish
+The personal portfolio of Rajat Shahare, Ph.D. Research Scholar in English at Rashtrasant Tukadoji Maharaj Nagpur University. It covers research on Colson Whitehead and African American literature, publications, teaching and open-source projects.
 
-1. Create a **public** repository named exactly `therajatshahare.github.io`.
-2. Upload everything in this folder to the repository root (`main` branch).
-3. Go to **Settings → Pages**, set the source to **Deploy from a branch → main → / (root)**.
-4. After a minute or two the site is live at https://therajatshahare.github.io
+Built with [Jekyll](https://jekyllrb.com) and hosted on [GitHub Pages](https://pages.github.com). The design is inspired by jekyllrb.com.
 
-## Run locally (optional)
+## Pages
+
+| Page | File |
+|---|---|
+| Home | `index.html` |
+| About | `about.md` |
+| Education | `education.md` |
+| Research | `research.md` |
+| Publications | `publications.md` |
+| Teaching | `teaching.md` |
+| Projects | `projects.md` |
+| Academic Activity | `academic-activity.md` |
+| Contact | `contact.md` |
+
+## Structure
+
+```
+_config.yml        Site settings, navigation and profile links
+_layouts/          default.html (base) and page.html (inner pages)
+assets/css/        style.css
+assets/img/        Profile photo
+assets/icons/      Social media icons
+assets/cv/         CV (PDF) used by the Download CV button
+*.md, index.html   Page content
+```
+
+## Run locally
+
+Requires Ruby and Bundler.
 
 ```
 bundle install
 bundle exec jekyll serve
 ```
 
-## Things to update
+Then open http://localhost:4000.
 
-- `_config.yml`: LinkedIn, ORCID and Google Scholar (blank values are hidden automatically).
-- Add your CV as `assets/cv/Rajat-Shahare-CV.pdf` so the **Download CV** button works.
-- Fill in the yellow "To update" placeholders on the Education, Research, Publications, Teaching, Projects and Academic Activity pages, then delete the notes.
+## Editing
+
+- Page text lives in the `.md` files, in Markdown with a little HTML.
+- The menu order is set under `nav:` in `_config.yml`.
+- Profile links (GitHub, LinkedIn, ORCID, Telegram) are set under `author:` in `_config.yml`.
+- The Download CV button expects `assets/cv/Rajat-Shahare-CV.pdf`.
+
+Pushing to `main` redeploys the site automatically.
+
+## License
+
+Site code (layouts, styles, configuration) is released under the [MIT License](LICENSE).
+All text, research, publication details and photographs are © Rajat Shahare and are not licensed for reuse.
