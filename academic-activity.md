@@ -4,22 +4,18 @@ title: Academic Activity
 subtitle: Conferences, workshops, seminars and memberships
 permalink: /academic-activity/
 ---
-<p class="todo"><strong>To update:</strong> add your real activities. Placeholders below show the pattern.</p>
+<p class="todo"><strong>To update:</strong> add any other conferences, seminars or memberships. My conference papers are listed on the <a href="{{ '/publications/' | relative_url }}">Publications</a> page.</p>
 
-## Conferences and seminars
+## Workshops and symposia
 
 <div class="entry">
-  <div class="meta">[Date] · [Location]</div>
-  <h3>[Conference / seminar name]</h3>
-  [Presented paper titled "…" / Attended]
+  <div class="meta">March 2026</div>
+  <h3>Interdisciplinary Symposium on "Existentialism and Modern Humanity: Philosophical and Literary Perspective"</h3>
 </div>
 
-## Workshops and FDPs
-
 <div class="entry">
-  <div class="meta">[Date]</div>
-  <h3>[Workshop name]</h3>
-  [Organising institution]
+  <div class="meta">November 2025</div>
+  <h3>Two-Day Workshop on "Research Methodology"</h3>
 </div>
 
 ## Fellowships and awards
